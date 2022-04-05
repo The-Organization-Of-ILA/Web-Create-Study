@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>重置密码</title>
+        <!-- <link href="forgetpasswd.css" rel="stylesheet" type="text/css"> -->
+        <scipt src="foregetpasswd.js"></scipt>
+    </head>
+
+    <body>
+        <div id="box">
+            <form action="login.html" method="post">
+                
+                <div id="passwordbox">
+                    <div id="passwordboxcenter">
+                        <p><label for="email">电子邮箱：</label></p>
+                        <p><input type="email" class="logininput" autofocus="on" required="required"><dfn>输入注册电子邮箱</dfn></p>
+
+                        <p><label for="password">新密码：</label></p>
+                        <p><input type="password" id="newpassword" required="required"><dfn>密码区分大小写</dfn></p>
+
+                        <p><label for="password">重复密码：</label></p>
+                        <p><input type="password" id="repeatpassword" required="required"><dfn>重复新密码</dfn></p>
+                    </div>
+
+                    <div id="passwordboxbutton">
+                        <button class="reset" onclick="check()">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+    
+</html>
